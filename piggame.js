@@ -53,7 +53,7 @@ rollDice.addEventListener('click',function(){
     
     //2.display the corresponding dice image with randomnumber
     dice.classList.remove('hidden');
-    dice.src = `C:/Users/HP/Documents/pig-game/dice${diceNumber}.png`;
+    dice.src = `dice${diceNumber}.png`;
 
     //3.if the random number is not 1 then add it to active player current score
     if(diceNumber!=1){
